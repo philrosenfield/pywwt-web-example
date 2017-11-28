@@ -1,2 +1,3 @@
-# pywwt-web-example
-Example notebook with binder (can be moved to the main pywwt-web repo later)
+(Experimental)
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/astrofrog/pywwt-web-example/master?filepath=example.ipynb)

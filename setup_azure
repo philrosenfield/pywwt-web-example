@@ -1,0 +1,2 @@
+# This is a script to set up the environment on notebooks.azure.com
+/home/nbuser/anaconda3_420/bin/conda install -c astrofrog/label/dev pywwt-web -y

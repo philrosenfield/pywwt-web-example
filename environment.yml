@@ -1,0 +1,9 @@
+name: pywwt-web
+
+channels:
+  - astrofrog/label/dev
+  - conda-forge
+
+dependencies:
+  - python>=3
+  - pywwt-web 

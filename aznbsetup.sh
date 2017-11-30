@@ -6,7 +6,11 @@
 rm -rf /home/nbuser/.local/share/jupyter/nbextensions
 mkdir /home/nbuser/.local/share/jupyter/nbextensions
 
-# Install pywwt!
+# Install pywwt! There are issues with Jupyter being run from Python 2
+# and the kernel being Python 3, so just to be sure we install the
+# required packages for both Python 2 and 3.
+
+pip2 install pywwt --pre --upgrade-strategy only-if-needed --user
 
 pip3 install pywwt --pre --upgrade-strategy only-if-needed --user
 

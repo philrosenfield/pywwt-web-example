@@ -6,4 +6,6 @@ mkdir /home/nbuser/.local/share/jupyter/nbextensions
 
 # Install pywwt!
 pip3 install pywwt --pre --upgrade-strategy only-if-needed --user
-/usr/local/bin/jupyter nbextension enable --py --user pywwt
+python3 /usr/local/bin/jupyter-nbextension enable --py --user widgetsnbextension
+python3 /usr/local/bin/jupyter-nbextension enable --py --user ipyevents
+python3 /usr/local/bin/jupyter-nbextension enable --py --user pywwt

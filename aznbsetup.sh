@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # As mentioned in https://github.com/Microsoft/AzureNotebooks/issues/245,
 # it looks like nbextensions is a symbolic link to a non-existing directory
 # initially

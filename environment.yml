@@ -5,7 +5,6 @@ channels:
 
 dependencies:
   - python>=3
-  - pywwt
   - traitlets
   - ipywidgets>=7.0
   - astropy
@@ -22,3 +21,4 @@ dependencies:
   - pip:
     - sphinx-automodapi
     - numpydoc
+    - pywwt

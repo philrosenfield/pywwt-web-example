@@ -5,6 +5,7 @@ channels:
 
 dependencies:
   - python>=3
+  - pywwt
   - traitlets
   - ipywidgets>=7.0
   - astropy

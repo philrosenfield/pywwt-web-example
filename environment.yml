@@ -21,4 +21,4 @@ dependencies:
   - pip:
     - sphinx-automodapi
     - numpydoc
-    - pywwt
+    - pywwt>=0.3

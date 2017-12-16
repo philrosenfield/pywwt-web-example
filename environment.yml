@@ -1,11 +1,23 @@
 name: pywwt
 
 channels:
-  - astrofrog/label/dev
+  - conda-forge
 
 dependencies:
   - python>=3
-  - matplotlib>=2.1
-  - pywwt
-  - pyqt=4
+  - traitlets
+  - ipywidgets>=7.0
+  - astropy
+  - qtpy
+  - pyqt
+  - widgetsnbextension
+  - ipyevents
   - nomkl
+  - nodejs
+  - matplotlib
+  - beautifulsoup4
+  - lxml
+  - python-dateutil
+  - pip:
+    - sphinx-automodapi
+    - numpydoc
